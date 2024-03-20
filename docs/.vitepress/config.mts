@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/my-web-docs/',
   title: "我的web文档站点",
   description: "记录自己学习的文档站点",
   themeConfig: {
